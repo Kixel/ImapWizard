@@ -15,7 +15,7 @@ RUN apt-get install -y git
 RUN git clone https://github.com/Kixel/ImapWizard.git
 RUN cd /ImapWizard
 RUN ls
-RUN pip install -r ./requirements.txt
+RUN pip install -r ImapWizard/requirements.txt
 
 WORKDIR /ImapWizard
 
